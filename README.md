@@ -1,13 +1,18 @@
 # iotapp-hello-world-tutorial
 
-## Project setup
+## Install Dependencies
 ```
 npm install
 ```
 
-#### Add your iotapp app keys to the ``` getPrivateChain() ``` function in the ```mounted() ``` section of the ```HelloWorld.vue ``` file.
-```
-iotapp.getPrivateChain("yCeSGBSNAfnnpb6Nk0rkvis3GxcS5GDG", "sdtTy8Zt8MW3zsoohf8iDDwCTVpmyN3K")
+## Project Setup
+In the ```HelloWorld.vue``` file (around line 39), add your channel app keys to the API functions.
+
+#### Examples
+```javascript
+    iotapp.getPrivateChain("myOz8FZXhT4lBzJplmXtUbneP8eeXpSp","3imNnMduakmu6JmFafIxnu8WJj28BjQI")
+
+    iotapp.getLatestTx("myOz8FZXhT4lBzJplmXtUbneP8eeXpSp","3imNnMduakmu6JmFafIxnu8WJj28BjQI")
 ```
 
 ### Compiles and hot-reloads for development
