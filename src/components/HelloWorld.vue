@@ -36,7 +36,7 @@ methods: {
 
   mounted() {
 // Pass app key(s) as argument.
-iotapp.getPrivateChain("YOUR_IOTAPP_APP_KEY(S)")
+iotapp.getPrivateChain("YOUR_IOTAPP_API_KEY(S)")
   .then(data => this.chainData = data)
   .catch(err => console.log("Error occurred:", err))
   },
