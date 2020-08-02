@@ -6,7 +6,7 @@ npm install
 ```
 
 ## Project Setup
-In the ```HelloWorld.vue``` file (around line 39), add your channel app keys to the API functions.
+In the ```HelloWorld.vue``` file (around line 39), pass your channel API keys as arguments to the API functions.
 
 #### Examples
 ```javascript
